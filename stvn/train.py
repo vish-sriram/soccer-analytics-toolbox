@@ -26,7 +26,7 @@ from collections import defaultdict
 from sklearn.model_selection import GroupKFold
 from sklearn.metrics import roc_auc_score, brier_score_loss
 
-from stvn import STVN
+from stvn.model import STVN
 
 DEVICE   = torch.device("cpu")
 CHAINS_PATH = Path("data/360/chains.pkl")

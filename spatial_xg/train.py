@@ -25,7 +25,7 @@ from sklearn.model_selection import GroupKFold
 from sklearn.metrics import roc_auc_score, brier_score_loss, log_loss
 from sklearn.cluster import KMeans
 
-from gnn_model import SpatialXGModel
+from spatial_xg.model import SpatialXGModel
 
 os.makedirs("models", exist_ok=True)
 os.makedirs("data/outputs", exist_ok=True)
